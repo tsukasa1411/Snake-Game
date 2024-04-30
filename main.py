@@ -77,7 +77,7 @@ class snakegame:
         imgMain = cvzone.overlayPNG(imgMain, self.imgFood,
                                     (rx-self.wFood//2, ry-self.hFood//2))  # This tuple specifies the location where the top-left corner of the PNG image will be placed on so we are subracting from the center
         # set the score
-        text = "CURRENT SCORE : "+str(self.score)
+        text = "CURRENT SCORE IS: "+str(self.score)
         position = (35, 35)
         font = cv.FONT_ITALIC
         font_scale = 1
